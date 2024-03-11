@@ -1,0 +1,39 @@
+.heart {
+    --c: red;
+    width: 300px;
+    aspect-ratio: 1;
+    background:
+     radial-gradient(at 70% 31%,var(--c) 29%,#0000 30%),
+     radial-gradient(at 30% 31%,var(--c) 29%,#0000 30%),
+     conic-gradient(from -45deg at 50% 84%,var(--c) 90deg,#0000 0) 
+      bottom/100% 50% no-repeat;
+      margin: 200px auto;
+  }
+  div {
+    text-align: center;
+    padding-top: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: pink;
+  }
+  button {
+    border: none;
+    margin: 10px;
+    width: 20%;
+    border-radius: 9%;
+    background-color: rgb(255, 83, 169);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 20px;
+    font-style: italic;
+  }
+  #move{
+    position: relative;
+}
+img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    display: block;
+}
+h1 {
+    text-align: center;
+}

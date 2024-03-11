@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oi amor!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form class="heart">
+        <div>
+        <h2>Quer casar comigo?</h2>
+        <button><a href="victory.html">Sim</a></button>
+        <button id="move" onmouseover="runaway(this)">Não</button>
+    </div>
+    <script>
+        function runaway(id) {
+    id.style.top = Math.round(Math.random() * 250) - 100 + 'px';
+    id.style.left = Math.round(Math.random() * 250) - 200 + 'px';
+}
+    </script>
+    </form>
+</body>
+</html>
